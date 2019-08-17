@@ -1,0 +1,7 @@
+<% @users.each do |user| %>
+  <div style="color: <%= user.is_admin? ? 'red' : 'green' %>">
+    <%= user.name %>
+    <%= user.email %>
+    </br>
+  </div>
+<% end %>
