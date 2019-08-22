@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :humen
   get 'sessions/new'
   resources :users
 
