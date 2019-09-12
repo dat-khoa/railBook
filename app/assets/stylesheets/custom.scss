@@ -1,7 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+<<<<<<< HEAD
 
 /* universal */
+=======
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+>>>>>>> c4bd49b861a6fdbe6c7df5d70c5a70dfadc5e86f
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -9,6 +15,7 @@
   box-sizing:         border-box;
 }
 
+<<<<<<< HEAD
 body {
     padding-top: 60px;
   }
@@ -72,6 +79,76 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
   }
   /* footer */
+=======
+/* universal */
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* footer */
+>>>>>>> c4bd49b861a6fdbe6c7df5d70c5a70dfadc5e86f
 
 footer {
     margin-top: 45px;
@@ -101,8 +178,20 @@ footer {
     float: left;
     margin-left: 15px;
   }
+<<<<<<< HEAD
 img{
     display:none
+=======
+
+  /* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+>>>>>>> c4bd49b861a6fdbe6c7df5d70c5a70dfadc5e86f
 }
 
 /* sidebar */
@@ -153,7 +242,11 @@ input, textarea, select, .uneditable-input {
 
 input {
   height: auto !important;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> c4bd49b861a6fdbe6c7df5d70c5a70dfadc5e86f
 
 #error_explanation {
   color: red;
@@ -170,6 +263,7 @@ input {
   }
 }
 
+<<<<<<< HEAD
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
@@ -184,6 +278,8 @@ input {
   margin-left: 0;
 }
 
+=======
+>>>>>>> c4bd49b861a6fdbe6c7df5d70c5a70dfadc5e86f
 /* Users index */
 
 .users {
