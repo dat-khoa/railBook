@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-//= require jquery
-//= require bootstrap
-//= require rails-ujs
-//= require turbolinks
-//= require_tree .
-=======
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -23,4 +16,3 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
->>>>>>> c4bd49b861a6fdbe6c7df5d70c5a70dfadc5e86f

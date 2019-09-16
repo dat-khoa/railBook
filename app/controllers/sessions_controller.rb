@@ -18,8 +18,4 @@ class SessionsController < ApplicationController
     log_out if logged_in?
     redirect_to root_url
   end
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> c4bd49b861a6fdbe6c7df5d70c5a70dfadc5e86f
