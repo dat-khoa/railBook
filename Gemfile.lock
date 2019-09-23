@@ -164,8 +164,6 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
-    rubocop-faker (0.2.0)
-      rubocop (>= 0.74)
     ruby-progressbar (1.10.1)
     rubyzip (1.2.4)
     sass (3.7.4)
@@ -243,8 +241,6 @@ DEPENDENCIES
   jquery-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
-  rubocop (~> 0.74.0)
-  rubocop-faker
   sass-rails (~> 5.0)
   selenium-webdriver
   solargraph

@@ -63,5 +63,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # rubocop n faker n shiet
 
 gem 'faker'
-gem 'rubocop', '~> 0.74.0', require: false
-gem 'rubocop-faker'
+
